@@ -33,7 +33,7 @@
             </v-list-item-icon>
 
             <v-list-item-content>
-              <v-list-item-title>{{ item.title }}</v-list-item-title>
+              <v-list-item-title @click="$router.push(item.navigate)">{{ item.title }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
         </v-list>
@@ -52,7 +52,7 @@ export default {
     return {
       drawer: null,
       items: [
-        { title: "Home", icon: "mdi-view-dashboard" },
+        { title: "Home", icon: "mdi-view-dashboard", navigate: '/' },
         { title: "How it works", icon: "mdi-head-question-outline" },
         { title: "About us", icon: "mdi-information" },
         { title: "Contact us", icon: "mdi-phone" }

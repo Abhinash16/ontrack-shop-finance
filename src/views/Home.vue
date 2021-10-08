@@ -8,7 +8,7 @@
       Molestias exercitationem quod ut aspernatur nostrum debitis molestiae
       ipsam, dolores assumenda alias quidem.
     </p>
-    <v-btn tile color="primary" :to="`/finance`" depressed>
+    <v-btn tile color="primary" :to="`/finance`" block depressed>
       Jump to finance page <v-icon class="my-0 py-0">mdi-chevron-right</v-icon>
     </v-btn>
   </div>

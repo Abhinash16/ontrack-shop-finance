@@ -34,8 +34,8 @@
       <!-- <v-btn :disabled="!valid" color="success" class="mr-4" @click="validate">
         Validate
       </v-btn> -->
-      <v-row class="my-5" align="center" justify="space-around">
-        <v-btn tile color="primary" @click="validate" depressed>
+      <v-row class="my-5 px-4" align="center" justify="space-around">
+        <v-btn tile block large color="primary" @click="validate" depressed>
           Continue <v-icon class="my-0 py-0">mdi-chevron-right</v-icon>
         </v-btn>
       </v-row>
